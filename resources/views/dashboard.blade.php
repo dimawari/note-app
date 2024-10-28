@@ -3,8 +3,21 @@
 @section('title', 'Dashboard')
 
 @section('content')
+<style>
+    .dashboard-title {
+        font-family: Comic Sans MS, Comic Sans, cursive;
+        font-size: 36px; /* Optional: Maaari mong baguhin ang laki ng font */
+        font-weight: bold; /* Optional: Kung gusto mo ng bold */
+    }
+    .card-title {
+        font-family: cursive; 
+        font-size: 24px; 
+        font-weight: bold; 
+    }
+    
+</style>
 <div class="container">
-    <h1>Dashboard</h1>
+    <h1 class="dashboard-title">Your Dashboard</h1>
     <div class="row mt-4">
         <div class="col-md-4">
             <div class="card">

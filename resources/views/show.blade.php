@@ -3,8 +3,24 @@
 @section('title', 'View Note')
 
 @section('content')
+<style>
+    h1 {
+        font-family: 'Comic Sans MS', Comic Sans, cursive;
+        font-size: 36px;
+        font-weight: bold;
+    }
+    .card-title {
+        font-family: Palatino, URW Palladio L, serif;
+        font-size: 20px;
+    }
+    .card-text {
+        font-family: Palatino, URW Palladio L, serif;
+    }
+    .btn {
+        font-family: Bookman, URW Bookman L, serif;
+    }
+</style>
 <div class="container">
-    
     <h1>{{ $note->title }}</h1>
 
     <div class="card mb-3">

@@ -26,17 +26,19 @@ h1 {
 
 /* Search bar */
 .search-bar {
-    margin-bottom: 20px;
+    margin: 20px auto; /* Center the bar */
+    text-align: center; /* Center the text */
 }
 
 .search-bar input {
-    width: 100%;
+    display: inline-block; /* Set input as inline-block */
+    width: 100%; /* Full width */
+    max-width: 400px; /* Maximum width */
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
 
-/* Action bar */
 .action-bar {
     margin-bottom: 20px;
 }

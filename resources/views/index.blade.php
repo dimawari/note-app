@@ -3,8 +3,34 @@
 @section('title', 'All Notes')
 
 @section('content')
+<style>
+    .page-title {
+        font-family: Comic Sans MS, Comic Sans, cursive; 
+        font-size: 36px; 
+        font-weight: bold; 
+    }
+    .form-control {
+        font-family: Bookman, URW Bookman L, serif; 
+        font-size: 16px;
+        
+    }
+    .input-group .btn {
+        font-family:Bookman, URW Bookman L, serif; 
+    }
+    .card-title {
+        font-family: Palatino, URW Palladio L, serif;
+        font-size: 20px; 
+    }
+    .card-text {
+        font-family: Palatino, URW Palladio L, serif;
+    }
+    .btn-info, .btn-warning, .btn-danger {
+        font-family:Bookman, URW Bookman L, serif;
+    }
+</style>
+
 <div class="container">
-    <h1>All Notes</h1>
+    <h1 class="page-title">All Notes</h1>
 
     <div class="row mb-4">
         <div class="col-md-6">
