@@ -13,7 +13,8 @@
             </ul>
         </div>
     @endif
-
+    <a href="{{ route('index') }}" class="btn btn-outline-primary mb-3">Back to Notes</a>
+    <a href="{{ route('dashboard') }}" class="btn btn-outline-primary mb-3">Back to Dashboard</a>
     <form method="POST" action="{{ route('store') }}" id="noteForm">
         @csrf
         <div class="form-group">

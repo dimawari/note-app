@@ -20,7 +20,8 @@
             <p class="card-text">{{ $note->content }}</p>
         </div>
     </div>
-
+    <a href="{{ route('index') }}" class="btn btn-outline-primary mb-3">Back to Notes</a>
+    <a href="{{ route('dashboard') }}" class="btn btn-outline-primary mb-3">Back to Dashboard</a>
     <div class="mt-3">
         <a href="{{ route('edit', $note) }}" class="btn btn-primary">Edit</a>
         <form action="{{ route('destroy', $note) }}" method="POST" class="d-inline">
