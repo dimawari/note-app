@@ -21,7 +21,6 @@
             <a href="{{ route('create') }}" class="btn btn-primary">Create New Note</a>
         </div>
     </div>
-    <a href="{{ route('index') }}" class="btn btn-outline-primary mb-3">Back to Notes</a>
     <a href="{{ route('dashboard') }}" class="btn btn-outline-primary mb-3">Back to Dashboard</a>
     @if($notes->isEmpty())
         <p>No notes found. {{ request('search') ? 'Try a different search term or create' : 'Start by creating' }} a new note!</p>

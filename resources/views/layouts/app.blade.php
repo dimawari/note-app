@@ -40,40 +40,7 @@
         .app-icon {
             width: 40px;
             height: 40px;
-            margin-right: 10px;
-        }
-        .btn {
-            transition: all 0.3s ease;
-        }
-        .btn-outline-primary:hover {
-            background-color: #fff;
-            color: white;
-        }
-        .btn-outline-success:hover {
-            background-color: #28a745;
-            color: white;
-            
-        }
-        .navbar-container {
-            max-width: 80%; 
-            text-align: center;
-        }
-
-        .navbar-content {
-             display: flex;   
-             justify-content: center;
-             gap: 20px; /* This adds space between the buttons */
-        }   
-
-        .navbar .btn {
-             min-width: 300px; /* This ensures buttons have a minimum width */
-             min-height: 50px;
-        }
-        .navabar .btn-outline-primary{
-            background-color: #fff;
-            color: #000;
-            text-align: center;
-        }
+            margin-right: 10px;}
         
         
 

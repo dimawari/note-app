@@ -15,7 +15,7 @@
                 </div>
             </form>
         </div>
-<a href="{{ route('index') }}" class="btn btn-outline-primary mb-3">Back to Notes</a>
+        
 <a href="{{ route('dashboard') }}" class="btn btn-outline-primary mb-3">Back to Dashboard</a>
     <h1>All Notes</h1>
     
